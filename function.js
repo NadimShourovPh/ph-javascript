@@ -25,9 +25,32 @@
 // console.log("the age was diffrence is :", differnce)
 // }
 //  agedifference(fatherAge, motherAge);
-function vag(num1,num2){
-let vagfol = num1/num2;
-return vagfol;
+// function vag(num1,num2){
+// let vagfol = num1/num2;
+// return vagfol;
+// }
+// let output = vag(50,2);
+// console.log(output);
+// let num1= 10;
+// let num2= 20;
+// let num3= 30;
+// let num4= 40;
+// function domath(num1,num2,num3,num4){
+//     let plus = num1+num2
+//     let minus = num4+num3
+//     let multiple = num3*num4
+//     return plus
+    
+// }
+// let math = domath(num1,num2);
+// console.log(math);
+// ..........................conditional return
+
+function oddOrEven(number){
+    if(number%2===0){
+        return true;
+    }
+    return false;
 }
-let output = vag(50,2);
-console.log(output);
+console.log(oddOrEven(13))
+
